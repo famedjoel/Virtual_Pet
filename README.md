@@ -41,7 +41,7 @@ So after starting the server, I believe the pet is up and running. I created a n
 - Note: I created something for the happiness of the pet and you can see the code at '/script.mjs'.Basically, the happiness meter depends on the state of if it is clean, if it has energy, and if it has been fed well. You can touch the function values and it reduces (normally I did everything to be at 100 but if you tamper with the values you will see it reduce) but you can do it from the VS code platform or rather code editor platform.
 
 
-The pet CSS which is at '/style.css' just basically show you the kind of design I did with various part of the pet, buttons, meter, etc.
+- The pet CSS which is at '/style.css' just basically show you the kind of design I did with various part of the pet, buttons, meter, etc.
 
 Wish I was able to put more features or designs in the Virtual Pet to fascinate your bubbles but this should be okay and quite enjoyable.
 
