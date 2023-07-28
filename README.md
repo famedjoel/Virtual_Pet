@@ -7,7 +7,7 @@ Installation Process
 In this Virtual Pet, you can be able to interact with or rather play with.
 
 
-- first of all if you want to start the project/code you have to use this link 
+- First of all, if you want to start the project/code you have to use this link 
 https://github.com/famedjoel/Virtual_Pet.git.
 
 - Then after clicking the link you have to be able to extract the code because it is in a zip file.
