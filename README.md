@@ -1,4 +1,4 @@
-# Virtual_Pet
+# Virtual Pet
 ---
 
 Installation Process
@@ -18,6 +18,7 @@ https://github.com/famedjoel/Virtual_Pet.git.
 
 So after starting the server, I believe the pet is up and running. I created a name input box where you can name the pet and you will receive a good welcome alert then click ok.
 
+#Features
 
 
 
