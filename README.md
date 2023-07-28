@@ -32,7 +32,7 @@ So after starting the server, I believe the pet is up and running. I created a n
 
 3. Feed the Pet if hungry: As can you see from the '/script.mjs', I have put some comments to show you what each part of the feed code does. It basically shows that I created a function so that the decreases but when you click the button it increases.
 
-** I was able to make sure that if you don't feed the pet it will die of hunger and if it does so an alert will be shown to you and how long it lasted then refresh the page to start again but please feed it if you do not want it to die.
+*I was able to make sure that if you don't feed the pet it will die of hunger and if it does so an alert will be shown to you and how long it lasted then refresh the page to start again but please feed it if you do not want it to die.
 
 4. It can Sleep: As can you see from the '/script.mjs', I have put some comments to show you what each part of the sleep code does. It basically shows that I created a function so that the meter decreases but here is the tricky part if you click the button the pet falls asleep for a second or so(you can see that from the eye closing) then it will open then blink for some seconds after.
 
