@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Pet</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.mjs"></script>
+    <script src="game.mjs"></script>
+    <script src="name.mjs"></script>
+
+</head>
+
+<main>
+  
+    <svg width="1000" height="1000">
+    <circle cx="370" cy="150" r="20" stroke="black" fill="black" />
+    <circle cx="230" cy="155" r="20" stroke="black" fill="black" />
+    <circle cx="305" cy="400" r="150" stroke="black" fill="white" stroke-width="8" />
+    <circle cx="180" cy="520" r="35" stroke="black" fill="black" />
+    <circle cx="420" cy="520" r="35" stroke="black" fill="black" />
+    <circle cx="300" cy="200" r="80" stroke="black" fill="white" stroke-width="8" />
+    
+    <defs>
+        <g id= "eyes">
+            <circle cx="31" r="8"  stroke="black" fill="black" />
+            <circle cx="80" r="8"  stroke="black" fill="black" />
+        </g>
+
+        <g id="hands">
+            <path id="left-hand" d="M0, -20 C -100, -30, -160, 30 0, 30"  ></path>
+            <path id="right-hand" d="M0, 20 C 100 30, 160, -30 0, -30"  ></path>
+        </g>
+    </defs>
+       
+    <ellipse cx ="300" cy="220" rx="20" ry="10" stroke="black" fill="white" stroke-width = "3"/>    
+    
+    <use href="#eyes" x="243" y="170"></use>
+    <use href="#hands"></use>
+    </svg>
+
+    
+    <header class="name-display">
+        <input type="text" id="nameInput" placeholder="Enter the Pet Name here...">
+    <button onclick="displayName()">Enter</button>
+    
+    </header>
+    
+    <c class="container" > 
+        <button id="btn" >play</button>
+        <button id = "foodButton" >food</button>
+        <button  id="cleanButton" >clean</button>
+        <button id = "sleepButton">sleep</button>
+    </c>
+
+    <c class="wrapper"> 
+    <label for="foodmeter">Feed</label>
+    <meter low="40" high="60" optimum="75" id="foodMeter" min=0 max=100 value=0></meter>
+    <label for="cleanmeter">Cleanliness</label>
+    <meter low="40" high="60" optimum="75" id="cleanMeter" min=0 max=100 value=0></meter>
+    <label for="happymeter">Happiness</label>
+    <meter low="40" high="60" optimum="75"id="happyMeter" min=0 max=100 value=0></meter>
+    <label for="energymeter">Energy</label>
+    <meter low="40" high="60" optimum="75"id="energyMeter" min=0 max=100 value=0></meter>
+    
+</c>
+
+<c class="box">
+    <button onclick="showGameDialog()">Game</button>
+
+    <c class="game-dialog" id="gameDialog" >
+    <h2>Roshambo or Rochambeau</h2>
+    <p>Make your move:</p>
+    <button onclick="funGame('rock')">Rock</button>
+    <button onclick="funGame('paper')">Paper</button>
+    <button onclick="funGame('scissors')">Scissors</button>
+    <p id="result"></p>
+</c>
+</c>    
+
+</main>   
+</html>
+
+
+

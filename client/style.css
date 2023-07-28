@@ -1,0 +1,96 @@
+#eyes {
+  animation: blinking 4s infinite;
+}
+
+@keyframes blinking {
+  0% { transform: scale(1, 1); }
+  5% { transform: scale(1, 0.1); }
+  10% { transform: scale(1, 1); }
+  100% { transform: scale(1, 1); }
+}
+
+.closed{
+  transform: scale(1, 0.1);
+}
+
+body{
+  background-image: url('trees.jpg'); 
+}
+main{
+  display: grid;
+  justify-content:center;
+  align-content: center;
+  position:relative;
+  bottom: 60px;
+}
+
+button {
+  margin: .5em;
+  background: lightsalmon;
+  color: white;
+  text-transform: uppercase;
+  padding: .5em 1em;
+  border-radius: 20px;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+
+}
+
+.container{
+  display: flex;
+  justify-content:center;
+  margin-right: 210px;
+  position: relative;
+  bottom: 450px;
+ text-align: center;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 120px;
+  position: relative;
+  bottom: 450px;
+}
+
+.box{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-right: 120px;
+  position: relative;
+  bottom: 450px;
+}
+
+label{
+font-size: 1.3em;
+margin-left: 5px;
+}
+
+.game-dialog {
+  display: none;
+  border: 0.5px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  bottom: 550px;
+  left: 350px;
+}
+
+
+.name-display{
+  display: flex;
+  justify-content:center;
+  position: relative;
+  bottom: 900px;
+  left: 200px;
+}
+
+#nameInput{
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
