@@ -14,4 +14,4 @@ https://github.com/famedjoel/Virtual_Pet.git.
 
 *After extracting go to the designated code editor of your choice but I will recommend Visual Studio Code then open the folder where your extraction is stored then the folder of the code/project will appear.
 
-*I was able to create a server which you can see from /server.mjs
+*I was able to create a server which you can see from [client]
