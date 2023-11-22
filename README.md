@@ -14,7 +14,9 @@ https://github.com/famedjoel/Virtual_Pet.git.
 
 - After extracting go to the designated code editor of your choice but I will recommend Visual Studio Code then open the folder where your extraction is stored then the folder of the code/project will appear.
 
-- I was able to create a server which you can see from '/server.js'. to start it, just go to the terminal and type "npm start" then it will pop and you are good to go.
+- I was able to create a server which you can see from '/server.js'. to start it, just go to the terminal and type "npm start" then it will start running and you are good to go.
+
+-Also, try and download express package to be able to run it and type in http://localhost:8080/ in your designated browser.
 
 So after starting the server, I believe the pet is up and running. I created a name input box where you can name the pet and you will receive a good welcome alert then click ok.
 
